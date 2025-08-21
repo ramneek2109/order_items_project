@@ -1,0 +1,16 @@
+[project]
+name = "order-items"
+version = "0.1.0"
+description = "CSV processing pipeline for order items"
+requires-python = ">=3.9"
+dependencies = [
+  "pandas",
+  "requests"
+]
+
+[tool.setuptools]
+packages = ["order_items"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+

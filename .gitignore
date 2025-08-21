@@ -1,0 +1,16 @@
+# venv
+venv/
+ven/
+.venv/
+
+# python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# editor/OS
+.DS_Store
+
+# project outputs (generated)
+data/
+
